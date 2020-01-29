@@ -3,7 +3,7 @@
   <head>
     <link rel="stylesheet" type="text/css" href="style.css"/>
 
-    <script type="text/javascript" src="//imasdk.googleapis.com/js/sdkloader/ima3.js"></script>
+    <script type="text/javascript" src="http://imasdk.googleapis.com/js/sdkloader/ima3.js"></script>
     <script type="text/javascript" src="application.js"></script>
     <script type="text/javascript" src="ads.js"></script>
     <script type="text/javascript" src="video_player.js"></script>
@@ -17,7 +17,7 @@
          var gads = document.createElement('script');
          gads.async = true;
          gads.type = 'text/javascript';
-         gads.src = '//www.googletagservices.com/tag/js/gpt.js';
+         gads.src = 'http://www.googletagservices.com/tag/js/gpt.js';
          var node = document.getElementsByTagName('script')[0];
          node.parentNode.insertBefore(gads, node);
        })();
@@ -49,6 +49,7 @@
 
     <div id="videoplayer">
       <video id="content">
+        <source src="lesson3.webm"></source>
         <source src="http://rmcdn.2mdn.net/Demo/vast_inspector/android.mp4"></source>
         <source src="http://rmcdn.2mdn.net/Demo/vast_inspector/android.webm"></source>
       </video>
